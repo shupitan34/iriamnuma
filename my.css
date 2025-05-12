@@ -36,9 +36,8 @@ box-sizing: border-box;
 -webkit-box-sizing: border-box;
 padding: 20px;
 border-radius: 6px;
-border: 2px solid #999;
 box-shadow: 1px 1px 5px #aaa;
-background-color: #fff;
+background-color: #edf1f7;
 z-index: 1;
 }
 .article-body .l-fuki {
@@ -54,9 +53,7 @@ content: "";
 top: 16px;
 width: 10px;
 height: 10px;
-border-right: 2px solid #999;
-border-bottom: 2px solid #999;
-background-color: #fff;
+background-color: #edf1f7;
 z-index: 2;
 }
 .article-body .l-fuki::before {
