@@ -48,10 +48,11 @@ position: relative;
 width: fit-content;
 box-sizing: border-box;
 -webkit-box-sizing: border-box;
-padding: 20px;
+padding: 1.6rem;
 border-radius: 6px;
 background-color: #e8e8e8;
 font-weight: 450;
+font-size: 95%;
 }
 .article-body .l-fuki {
 margin: 20px 20% 40px auto;
@@ -125,6 +126,124 @@ left: -84px;
 }
 }
 .icon-tanaka::before{background-image:url(https://livedoor.blogimg.jp/shupitan/imgs/3/5/352274ae.png);}
+
+
+
+/* my
+----------------------------------------------- */
+
+/* メリットデメリット */
+body .box28 {
+    position: relative;
+    margin: 2em 3rem;
+    padding: 30px 10px 7px;
+    border: solid 2px #FFC107;
+}
+body .box28 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+body .box28 p,
+body .box28 li {
+    padding: 0;
+    font-size: 80%;
+}
+
+body .box28 p{
+    margin: 0; 
+}
+
+body .box28 li {
+    margin: 0 0 0 2rem; 
+}
+
+body .box28.box28-red {
+    border-color: #f46b6b;
+    background: #fcf9f1;
+}
+body .box28.box28-red .box-title{
+    background: #f46b6b;
+}
+
+
+body .box28.box28-blue {
+    border-color: #4ba0d8;
+    background: #f7f7f7;
+}
+body .box28.box28-blue .box-title {
+    background: #4ba0d8;
+}
+
+
+
+/* メモ */
+.box26 {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #b3d9fb;
+    border-radius: 8px;
+}
+.box26 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #b3d9fb;
+    font-weight: bold;
+}
+.box26 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/* 関連記事 */
+.box5-4 {
+    position: relative; /* タイトルをボックス内の左上に配置するための基準 */
+    margin: 0 auto 2em; /* 外側の余白（上下と中央配置） */
+    border: 1px solid #EFBCBC ; /* 枠線の色を設定 */
+    border-radius: 5px; /* 角を少し丸めて柔らかい印象に */
+}
+
+.box5-4 .box-title {
+    background-color: #EFBCBC ; /* タイトルの背景色 */
+    color: #fff; /* タイトルの文字色（白） */
+    padding: 0.1em 1em; /* タイトルの内側余白（上下・左右） */
+    position: absolute; /* 親要素（.box5-4）の中で固定配置 */
+    top: -0.8em; /* タイトルをボックスの上に少しはみ出させる */
+    left: 1em; /* 左側に少し余白を取る */
+    display: inline-block; /* タイトルの幅を内容に合わせる */
+    font-size: 0.9em; /* タイトルのフォントサイズを設定 */
+    border-radius: 5px; /* タイトルの角を丸める */
+    width: auto; /* タイトル幅を内容に応じて可変にする */
+    max-width: calc(100% - 2em); /* 左右の余白を考慮して最大幅を調整 */
+    white-space: nowrap; /* タイトルを1行に固定 */
+    overflow: hidden; /* はみ出した部分を非表示 */
+    text-overflow: ellipsis; /* 省略記号（...）を表示 */
+}
+
+.box5-4 .box-content {
+    padding: 3em 2em 2em; /* 上部の余白を多めに確保し、タイトルと本文が重ならないようにする */
+}
+
+.box5-4 p {
+    margin: 0; /* 段落の余白をなくして統一感を出す */
+}
+
 
 
 /* my
