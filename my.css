@@ -26,8 +26,103 @@ body .article-body {
     font-size: 16px;
 }
 
+body .article-body-inner h1,
+body .article-body-inner h2
+ {
+    margin-left: -1rem;
+    padding-left: 1rem;
+}
+body .article-body-inner ol,
+body .article-body-inner ul {
+    margin-left: 3rem;
+}
 
 
+/* my
+----------------------------------------------- */
+.article-body .l-fuki,
+.article-body .r-fuki {
+position: relative;
+width: fit-content;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding: 20px;
+border-radius: 6px;
+background-color: #e8e8e8;
+font-weight: 500;
+}
+.article-body .l-fuki {
+margin: 20px 20% 40px auto;
+}
+.article-body .r-fuki {
+margin: 20px 0 40px 19%;
+}
+.article-body .l-fuki::after,
+.article-body .r-fuki::after{
+position: absolute;
+content: "";
+top: 16px;
+width: 10px;
+height: 10px;
+background-color: #e8e8e8;
+z-index: -1;
+}
+.article-body .l-fuki::after{
+right: -6px;
+transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+.article-body .r-fuki::after{
+left: -6px;
+transform: rotate(135deg);
+-webkit-transform: rotate(135deg);
+}
+.article-body .l-fuki::before,
+.article-body .r-fuki::before{
+position: absolute;
+content: "";
+width: 80px;
+height: 80px;
+top: -10px;
+border-radius: 40px;
+border: 3px solid #e8e8e8;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+.article-body .l-fuki::before{
+right: -110px;
+}
+.article-body .r-fuki::before{
+left: -110px;
+}
+@media screen and (max-width: 620px) {
+.article-body .l-fuki,
+.article-body .r-fuki {
+width: 70%
+}
+.article-body .l-fuki {
+margin-right: 30%;
+}
+.article-body .r-fuki {
+margin-left: 30%;
+}
+}
+@media screen and (max-width: 478px) {
+.article-body .l-fuki::before,
+.article-body .r-fuki::before{
+width: 60px;
+height: 60px;
+border-radius: 30px;
+}
+.article-body .l-fuki::before{
+right: -84px;
+}
+.article-body .r-fuki::before{
+left: -84px;
+}
+}
+.icon-tanaka::before{background-image:url(https://livedoor.blogimg.jp/shupitan/imgs/3/5/352274ae.png);}
 
 
 /* my
