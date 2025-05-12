@@ -26,9 +26,10 @@ body .article-body {
     font-size: 16px;
 }
 
-body .article-body-inner h1,
 body .article-body-inner h2
  {
+    border-bottom: 4px solid #473838;
+    color: #473838;
     margin-top: 4rem;
     margin-left: -1rem;
     padding-left: 1rem;
