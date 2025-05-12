@@ -23,11 +23,11 @@ body .sidewrapper .sidetitle {
 body .article-body {
     max-width: 600px;
     margin: 0 auto;
+    font-size: 16px;
 }
 
 /* my
 ----------------------------------------------- */
-/* 吹き出しのCSS　*/
 .article-body .l-fuki,
 .article-body .r-fuki {
 position: relative;
