@@ -30,15 +30,22 @@ body .article-body-inner h2
  {
     border-bottom: 4px solid #473838;
     color: #473838;
-    margin-top: 4rem;
-    margin-left: -1rem;
-    padding-left: 1rem;
+    margin-top: 4em;
+    margin-left: -1em;
+    padding-left: 1em;
 }
 body .article-body-inner ol,
 body .article-body-inner ul {
-    margin-left: 3rem;
+    margin-left: 3em;
 }
 
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+  line-height:1.7em;
+}
 
 /* my
 ----------------------------------------------- */
@@ -48,7 +55,7 @@ position: relative;
 width: fit-content;
 box-sizing: border-box;
 -webkit-box-sizing: border-box;
-padding: 1.8rem;
+padding: 1.8em;
 border-radius: 6px;
 background-color: #f0efef;
 font-size: 95%;
@@ -134,7 +141,7 @@ left: -84px;
 /* メリットデメリット */
 body .box28 {
     position: relative;
-    margin: 2em 3rem;
+    margin: 2em 3em;
     padding: 30px 10px 7px;
     border: solid 2px #FFC107;
 }
@@ -163,7 +170,7 @@ body .box28 p{
 }
 
 body .box28 li {
-    margin: 0 0 0 2rem; 
+    margin: 0 0 0 2em; 
 }
 
 body .box28.box28-red {
@@ -249,7 +256,7 @@ body .box28.box28-blue .box-title {
 ----------------------------------------------- */
 .appreach {
   text-align: left;
-  margin: 2rem 0;
+  margin: 2em 0;
   padding: 10px;
   border: 1px solid #7C7C7C;
   overflow: hidden;
