@@ -342,3 +342,22 @@ body .box28.box28-blue .box-title {
   overflow: hidden;
   white-space: nowrap;
 }
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+	body div.appreach {
+	  text-align: center;
+	}
+	div.article-body-outer div.article-body img {
+		padding: unset;
+	}
+	body div.appreach img.appreach__icon {
+	  float: left;
+	  border-radius: 10%;
+	  overflow: hidden;
+	  margin: 0 3% 0 0 !important;
+	  width: 25% !important;
+	  height: auto !important;
+	  max-width: 120px !important;
+	  padding:unset;
+	}
+}
