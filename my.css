@@ -33,8 +33,8 @@ body div.article-body-outer .article-body h2{
     margin-left: -1em;
     padding-left: 1em;
 }
-body:not(.default_2019) div.article-body-outer .article-body ol,
-body:not(.default_2019) div.article-body-outer .article-body ul {
+body:not(#default_2019) div.article-body-outer .article-body ol,
+body:not(#default_2019) div.article-body-outer .article-body ul {
     margin-left: 3em;
 }
 
