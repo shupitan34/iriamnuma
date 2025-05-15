@@ -340,13 +340,13 @@ body .box28.box28-blue .box-title {
 
 
 	/* 480px以下に適用されるCSS（スマホ用） */
-	#default_2019 body div.appreach {
+	#default_2019 div.appreach {
 	  text-align: center;
 	}
 	#default_2019 div.article-body-outer div.article-body img {
 		padding: unset;
 	}
-	#default_2019 body div.appreach img.appreach__icon {
+	#default_2019 div.appreach img.appreach__icon {
 	  float: left;
 	  border-radius: 10%;
 	  overflow: hidden;
@@ -356,23 +356,23 @@ body .box28.box28-blue .box-title {
 	  max-width: 120px !important;
 	  padding:unset;
 	}
-	#default_2019 body div.appreach .appreach__detail {	
+	#default_2019 div.appreach .appreach__detail {	
 	  text-align: left;
 	}
-	#default_2019 body div.appreach .appreach__links {
+	#default_2019 div.appreach .appreach__links {
 	  width: 100%;
 	}
-	#default_2019 body div.appreach .appreach__aslink,
-	#default_2019 body div.appreach .appreach__gplink{
+	#default_2019 div.appreach .appreach__aslink,
+	#default_2019 div.appreach .appreach__gplink{
 	  max-width: 200px;
 	  width: 49% !important;
 	  display: inline-block;
 	}
-	#default_2019 body div.appreach .appreach__aslink img {
+	#default_2019 div.appreach .appreach__aslink img {
 	  margin-right: 10px;
 	}
-	#default_2019 body div.appreach .appreach__aslink img ,
-	#default_2019 body div.appreach .appreach__gplink img {
+	#default_2019 div.appreach .appreach__aslink img ,
+	#default_2019 div.appreach .appreach__gplink img {
 	/*   height: 40px !important; */
 	  width: 100% !important;
 	}
