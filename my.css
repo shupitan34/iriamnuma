@@ -44,9 +44,10 @@ body .article-body-inner ul {
 }
 @media screen and (max-width: 480px) {
 	/* 480px以下に適用されるCSS（スマホ用） */
-div.article-body-outer div.article-body{
-  line-height:1.7em;
-}
+	div.article-body-outer div.article-body{
+	  	line-height:1.7em;
+		font-size: 15px;
+	}
 }
 
 /* my
