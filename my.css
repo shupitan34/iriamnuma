@@ -360,9 +360,12 @@ body .box28.box28-blue .box-title {
 	  max-width: 120px !important;
 	  padding:unset;
 	}
+	body div.appreach .appreach__links {
+	  width: 100%;
+	}
 	body div.appreach .appreach__aslink,
 	body div.appreach .appreach__gplink{
-	  max-width: 345px;
+	  max-width: 200px;
 	  width: 49% !important;
 	  display: inline-block;
 	}
