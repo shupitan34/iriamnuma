@@ -13,7 +13,7 @@ body .to-pagetop a::after {
   background-color:#483838;
 }
 body #blog-title a:hover 
-body .article-body .article-body-inner a {
+body .article-body a {
     color: #EFBCBC;
 }
 body .sidewrapper .sidetitle {
@@ -256,11 +256,12 @@ body .box28.box28-blue .box-title {
 
 /* my
 ----------------------------------------------- */
+/* アプリーチ（ver.2.0） */
 .appreach {
   text-align: left;
-  margin: 2em 0;
   padding: 10px;
-  border: 1px solid #7C7C7C;
+  border: 1px dashed #BDBDBD;
+  max-width: 640px;
   overflow: hidden;
 }
 .appreach:after {
