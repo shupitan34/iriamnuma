@@ -283,6 +283,7 @@ body div.appreach img.appreach__icon {
   width: 25% !important;
   height: auto !important;
   max-width: 120px !important;
+  padding:unset;
 }
 body div.appreach .appreach__detail {
   display: inline-block;
@@ -320,12 +321,12 @@ body div.appreach .appreach__links {
 }
 body div.appreach .appreach__aslink img {
   margin-right: 10px;
-  height: 40px;
-  width: 135px;
+  height: 40px !important;;
+  width: 135px !important;;
 }
 body div.appreach .appreach__gplink img {
-  height: 40px;
-  width: 134.5px;
+  height: 40px !important;;
+  width: 134.5px !important;;
 }
 body div.appreach .appreach__star {
   position: relative;
