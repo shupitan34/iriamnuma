@@ -128,6 +128,13 @@ right: -84px;
 left: -84px;
 }
 }
+
+#default_2019 .article-body.l-fuki, 
+#default_2019 .article-body .r-fuki{
+    padding: 1.0em;
+    font-size: 85%;
+    line-height: 1.3em;
+}
 .icon-tanaka::before{background-image:url(https://livedoor.blogimg.jp/shupitan/imgs/3/5/352274ae.png);}
 
 
