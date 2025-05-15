@@ -315,19 +315,21 @@ body div.appreach .appreach__posted a {
 }
 body div.appreach .appreach__links {
   float: left;
-  height: 40px;
   margin-top: 8px;
   white-space: nowrap;
   width: 100%;
 }
+body div.appreach .appreach__aslink {
+  width: 49% !important;
+  display: inline-block;
+}
 body div.appreach .appreach__aslink img {
   margin-right: 10px;
-  height: 40px !important;;
-  width: 135px !important;;
 }
+body div.appreach .appreach__aslink img ,
 body div.appreach .appreach__gplink img {
-  height: 40px !important;;
-  width: 134.5px !important;;
+  height: 40px !important;
+  width: 100% !important;
 }
 body div.appreach .appreach__star {
   position: relative;
