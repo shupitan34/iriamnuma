@@ -20,30 +20,30 @@ body .sidewrapper .sidetitle {
     border-left: #EFBCBC 6px solid;
 }
 
-body div.article-body-outer .article-body {
+body div.article-body {
     max-width: 600px;
     margin: 0 auto;
     font-size: 16px;
 }
 
-body div.article-body-outer .article-body h2{
+body div.article-body h2{
     border-bottom: 4px solid #473838;
     color: #473838;
     margin-top: 4em;
     margin-left: -1em;
     padding-left: 1em;
 }
-body:not(#default_2019) div.article-body-outer .article-body ol,
-body:not(#default_2019) div.article-body-outer .article-body ul {
+body:not(#default_2019) .article-body ol,
+body:not(#default_2019) .article-body ul {
     margin-left: 3em;
 }
 
 /* 480px以下に適用されるCSS（スマホ用） */
-body#default_2019 div.article-body-outer div.article-body{
+body#default_2019 div.article-body{
 	line-height:1.7em;
 	font-size: 15px;
 }
-body#default_2019 div.article-body-outer .article-body h2{
+body#default_2019 .article-body h2{
 	margin-left: 0em;
 	padding-left: 0em;
 	margin-top: 2.5em;
