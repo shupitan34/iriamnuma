@@ -362,6 +362,7 @@ body .box28.box28-blue .box-title {
 	}
 	body div.appreach .appreach__aslink,
 	body div.appreach .appreach__gplink{
+	  max-width: 345px;
 	  width: 49% !important;
 	  display: inline-block;
 	}
