@@ -43,7 +43,10 @@ body div.article-body-outer .article-body ul {
 	line-height:1.7em;
 	font-size: 15px;
 }
-
+#default_2019 div.article-body-outer .article-body h2{
+	margin-left: -1em;
+	padding-left: 1em;
+}
 /* my
 ----------------------------------------------- */
 .article-body .l-fuki,
