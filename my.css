@@ -360,6 +360,9 @@ body .box28.box28-blue .box-title {
 	  max-width: 120px !important;
 	  padding:unset;
 	}
+	body div.appreach .appreach__detail {	
+	  text-align: left;
+	}
 	body div.appreach .appreach__links {
 	  width: 100%;
 	}
