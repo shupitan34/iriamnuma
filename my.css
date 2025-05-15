@@ -318,6 +318,7 @@ body div.appreach .appreach__links {
   height: 40px;
   margin-top: 8px;
   white-space: nowrap;
+  width: 100%;
 }
 body div.appreach .appreach__aslink img {
   margin-right: 10px;
