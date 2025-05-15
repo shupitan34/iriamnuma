@@ -258,7 +258,7 @@ body .box28.box28-blue .box-title {
 ----------------------------------------------- */
 /* アプリーチ（ver.2.0） */
 body div.appreach {
-  text-align: left;
+  text-align: center;
   padding: 10px;
   border: 1px dashed #BDBDBD;
   max-width: 640px;
@@ -314,7 +314,6 @@ body div.appreach .appreach__posted a {
   margin-left: 0.5em;
 }
 body div.appreach .appreach__links {
-  float: left;
   margin-top: 8px;
   white-space: nowrap;
   width: 100%;
