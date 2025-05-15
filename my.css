@@ -39,16 +39,16 @@ body:not(#default_2019) div.article-body-outer .article-body ul {
 }
 
 /* 480px以下に適用されるCSS（スマホ用） */
-#default_2019 div.article-body-outer div.article-body{
+body#default_2019 div.article-body-outer div.article-body{
 	line-height:1.7em;
 	font-size: 15px;
 }
-#default_2019 div.article-body-outer .article-body h2{
+body#default_2019 div.article-body-outer .article-body h2{
 	margin-left: 0em;
 	padding-left: 0em;
 	margin-top: 2.5em;
 }
-#default_2019 .article-body img.pict {
+body#default_2019 .article-body img.pict {
     margin: 1em 0;
 }
 
@@ -383,7 +383,7 @@ body .box28.box28-blue .box-title {
 	#default_2019 div.appreach .appreach__aslink,
 	#default_2019 div.appreach .appreach__gplink{
 	  max-width: 200px;
-	  width: 49% !important;
+	  width: 43% !important;
 	  display: inline-block;
 	}
 	#default_2019 div.appreach .appreach__aslink img {
