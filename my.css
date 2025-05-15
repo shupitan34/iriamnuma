@@ -20,21 +20,21 @@ body .sidewrapper .sidetitle {
     border-left: #EFBCBC 6px solid;
 }
 
-body .article-body {
+body div.article-body-outer .article-body {
     max-width: 600px;
     margin: 0 auto;
     font-size: 16px;
 }
 
-body .article-body h2{
+body div.article-body-outer .article-body h2{
     border-bottom: 4px solid #473838;
     color: #473838;
     margin-top: 4em;
     margin-left: -1em;
     padding-left: 1em;
 }
-body .article-body ol,
-body .article-body ul {
+body div.article-body-outer .article-body ol,
+body div.article-body-outer .article-body ul {
     margin-left: 3em;
 }
 
